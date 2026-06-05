@@ -11,7 +11,7 @@ public class BusService
 {
     private List<Bus> busList = new ArrayList<>();
     private Long nextId = 100L;
-    // Add Bus
+    // Add kora jabe
     public Bus add(Bus bus) 
     {
         bus.setId(nextId++);
@@ -23,7 +23,7 @@ public class BusService
     {
         return busList;
     }
-    // Get Bus By ID
+    // Get Bus By ID(check)
     public Bus getById(Long id) 
     {
         for (Bus bus : busList) 
